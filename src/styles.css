@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.ProfileInformation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 5px;
+}
+#img-and-name-balance {
+  display: flex;
+  gap: 20px;
+}
+#name-and-balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+img {
+  border-radius: 25px;
+}
+h3 {
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+  padding: 0px 15px;
+  border-radius: 7px;
+  height: 40px;
+  background-color: rgb(216, 154, 40);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 0px;
+}
+
+#btn {
+  border: 0px;
+  height: 40px;
+  margin-left: 330px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ProfileAdding {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 30px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+#label-and-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.MyandfriendExpenses {
+  padding: 5px;
+  width: 400px;
+}
+#select {
+  padding: 13px 65px;
+  border-radius: 10px;
+}
+
+#label-and-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  gap: 20px;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+#split {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 376px) {
+  .ProfileInformation {
+    width: 350px;
+  }
+  ul {
+    width: 350px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ProfileAdding {
+    width: 350px;
+  }
+  #btn {
+    margin-left: 250px;
+  }
+  .MyandfriendExpenses {
+    width: 350px;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 321px) {
+  .ProfileInformation {
+    width: 300px;
+  }
+  ul {
+    width: 300px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ProfileAdding {
+    width: 300px;
+  }
+  #btn {
+    margin-left: 200px;
+  }
+  .MyandfriendExpenses {
+    width: 300px;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
